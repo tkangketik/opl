@@ -587,6 +587,8 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
   </section>
   <footer class="footer-area">
     <div class="footer-big section--padding">
