@@ -7457,11 +7457,11 @@ ul.nav-tabs.nav--tabs2 li a::before {
 }
 
 .hero-area.hero--1:before {
-  background: -webkit-gradient(linear, right top, left top, from(#7347c1), to(#0674ec));
-  background: -webkit-linear-gradient(right, #7347c1, #0674ec);
-  background: -o-linear-gradient(right, #7347c1, #0674ec);
-  background: linear-gradient(to left, #7347c1, #0674ec);
-  opacity: .9;
+  background: -webkit-gradient(linear, right top, left top, from(#fc00ff), to(#00dbde));
+  background: -webkit-linear-gradient(right, #fc00ff, #00dbde);
+  background: -o-linear-gradient(right, #fc00ff, #00dbde);
+  background: linear-gradient(to left, #fc00ff, #00dbde);
+  opacity: 50%;
 }
 
 .hero-area .hero-content {
