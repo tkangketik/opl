@@ -1,0 +1,10 @@
+[24-May-2021 14:21:36 UTC] PHP Notice:  Trying to get property 'order_id' of non-object in /home/tokoamal/public_html/ajax/payment/update.php on line 7
+[24-May-2021 14:21:36 UTC] PHP Notice:  Trying to get property 'status_code' of non-object in /home/tokoamal/public_html/ajax/payment/update.php on line 10
+[26-May-2021 10:56:30 UTC] PHP Fatal error:  Uncaught Exception: Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.sandbox.midtrans.com/snap/v1/transactions in /home/tokoamal/public_html/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/tokoamal/public_html/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-V...', Array, true)
+#1 /home/tokoamal/public_html/vendor/midtrans/midtrans-php/Midtrans/Snap.php(86): Midtrans\SnapApiRequestor::post('https://app.san...', 'SB-Mid-server-V...', Array)
+#2 /home/tokoamal/public_html/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/tokoamal/public_html/ajax/payment/checkout.php(95): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+  thrown in /home/tokoamal/public_html/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
