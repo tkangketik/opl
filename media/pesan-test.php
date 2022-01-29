@@ -466,8 +466,8 @@ if (empty($_SESSION['username']) and empty($_SESSION['password'])) {
                                                                                         <?php
                                                                                         } ?>
                                                                                         <input type="hidden" name="total" value="<?php echo $total; ?>">
-                                                                    <input type="hidden" name="tgl" value="<?php echo $_GET['date']; ?>">
-                                                                    <input type="hidden" name="OrderDetail" value="<?php echo htmlentities($OrderDetail); ?>">
+                                                                                        <input type="hidden" name="tgl" value="<?php echo $_GET['date']; ?>">
+                                                                                        <input type="hidden" name="OrderDetail" value="<?php echo htmlentities($OrderDetail); ?>">
                                                                                     </select>
                                                                                 </div>
                                                                             </div>
@@ -481,7 +481,7 @@ if (empty($_SESSION['username']) and empty($_SESSION['password'])) {
                                                                         </div>
                                                                     </div>
                                                                     </form>
-                                                                    <?php } ?>
+                                                                <?php } ?>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -495,8 +495,6 @@ if (empty($_SESSION['username']) and empty($_SESSION['password'])) {
                     </div>
                 </div>
         </section>
-
-
 
         <script src="../assets/js/vendor/jquery/jquery-1.12.3.js"></script>
         <script src="../assets/js/vendor/jquery/popper.min.js"></script>
@@ -562,19 +560,19 @@ if (empty($_SESSION['username']) and empty($_SESSION['password'])) {
             };
         </script>
         <!-- // <?php
-                                                                            // $idtransaksi = mysqli_insert_id($koneksi);
-                                                                            // $jambooking = $_POST['pesanan'];
+                                                        // $idtransaksi = mysqli_insert_id($koneksi);
+                                                        // $jambooking = $_POST['pesanan'];
 
-                                                                            // $query = "INSERT INTO transaksi (kd_transaksi, nama, email, tanggal, timeslot, trans_status) VALUES ($idtransaksi ,$pembeli,$email,$date,$jambooking,'Success')";
+                                                        // $query = "INSERT INTO transaksi (kd_transaksi, nama, email, tanggal, timeslot, trans_status) VALUES ($idtransaksi ,$pembeli,$email,$date,$jambooking,'Success')";
 
-                                                                            // mysqli_query($koneksi, $query);
+                                                        // mysqli_query($koneksi, $query);
 
-                                                                            // // foreach ($_SESSION['SBCScart'] as $SBCSitem) {
-                                                                            // // 		$query = "INSERT INTO detail_transaksi(kd_transaksi,kd_buku,qty) VALUES({$idtransaksi},$key,{$value['jumlah']})";
-                                                                            // // 		mysqli_query($koneksi, $query);
-                                                                            // // 		unset($_SESSION['SBCScart'][$SBCSitem]);
-                                                                            // // }
-                                                                            // 
+                                                        // // foreach ($_SESSION['SBCScart'] as $SBCSitem) {
+                                                        // // 		$query = "INSERT INTO detail_transaksi(kd_transaksi,kd_buku,qty) VALUES({$idtransaksi},$key,{$value['jumlah']})";
+                                                        // // 		mysqli_query($koneksi, $query);
+                                                        // // 		unset($_SESSION['SBCScart'][$SBCSitem]);
+                                                        // // }
+                                                        // 
                 ?> -->
         <script>
             $(document).ready(function() {
@@ -621,4 +619,5 @@ if (empty($_SESSION['username']) and empty($_SESSION['password'])) {
                 })
             });
         </script>
-<?php } } ?>
+<?php }
+                                                } ?>
