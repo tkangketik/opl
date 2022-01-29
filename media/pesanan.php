@@ -12,7 +12,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Orion Pet Lover</title>
+    <title>Reservasi - Orion Pet Lover</title>
     <link rel="stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/fontello.css">
@@ -68,19 +68,19 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                     <div class="dropdowns dropdown--author">
                       <ul>
                         <li>
-                          <a href="ubahdatapelanggan.php?id=<?php echo $row['id_pelanggan']; ?>">
+                          <a href="../pages/pelanggan.php">
                             <span class="lnr lnr-user"></span> Akun</a>
                         </li>
                         <li>
-                          <a href="pages/hewan.php">
+                          <a href="../pages/hewan.php">
                             <span class="lnr lnr-smile"></span> Data Hewan</a>
                         </li>
                         <li>
-                          <a href="pages/keranjang.php">
+                          <a href="../pages/keranjang.php">
                             <span class="lnr lnr-cart"></span> Pesanan</a>
                         </li>
                         <li>
-                          <a href="logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
+                          <a href="../logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
                             <span class="lnr lnr-exit"></span>Logout</a>
                         </li>
                       </ul>

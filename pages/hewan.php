@@ -80,7 +80,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                             <span class="lnr lnr-cart"></span> Pesanan</a>
                         </li>
                         <li>
-                          <a href="logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
+                          <a href="../logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
                             <span class="lnr lnr-exit"></span>Logout</a>
                         </li>
                       </ul>

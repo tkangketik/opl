@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Data Akun - Orion Pet Lover</title>
+    <title>Ubah Data Akun - Orion Pet Lover</title>
     <link rel="stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/fontello.css">
@@ -32,7 +32,7 @@
             <div class="col-lg-3 col-md-3 col-3">
               <div class="logo">
                 <a href="../home.php" class="author-area__seller-btn inline"><i class="lnr lnr-home"></i>Home</a>
-                <a href="pesanan.php" style="color:black;"><i class="lnr lnr-book"></i>Reservasi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../media/pesanan.php" style="color:black;"><i class="lnr lnr-book"></i>Reservasi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="../konsul.php" style="color:black;"><i class="lnr lnr-users"></i>Konsultasi</a>
               </div>
             </div>
@@ -42,7 +42,7 @@
                   <ul>
                     <li class="has_dropdown">
                       <div class="icon_wrap">
-                        <a href="../pages/keranjang.php">
+                        <a href="keranjang.php">
                           <span class="lnr lnr-cart"></span>
                         </a>
                       </div>
@@ -65,19 +65,19 @@
                     <div class="dropdowns dropdown--author">
                       <ul>
                         <li>
-                          <a href="ubahdatapelanggan.php?id=<?php echo $row['id_pelanggan']; ?>">
+                          <a href="pelanggan.php">
                             <span class="lnr lnr-user"></span> Akun</a>
                         </li>
                         <li>
-                          <a href="pages/hewan.php">
+                          <a href="hewan.php">
                             <span class="lnr lnr-smile"></span> Data Hewan</a>
                         </li>
                         <li>
-                          <a href="pages/keranjang.php">
+                          <a href="keranjang.php">
                             <span class="lnr lnr-cart"></span> Pesanan</a>
                         </li>
                         <li>
-                          <a href="logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
+                          <a href="../logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
                             <span class="lnr lnr-exit"></span>Logout</a>
                         </li>
                       </ul>
@@ -126,7 +126,7 @@
                     <span class="lnr lnr-cog"></span>Ubah Password</a>
                 </li>
                 <li>
-                  <a href="logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
+                  <a href="../logout.php" onclick="return confirm('Apakah Anda Yakin Ingin keluar?')">
                     <span class="lnr lnr-exit"></span>Logout</a>
                 </li>
               </ul>
