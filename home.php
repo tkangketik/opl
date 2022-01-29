@@ -44,7 +44,9 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
           <div class="row">
             <div class="col-lg-3 col-md-3 col-6 v_middle">
               <div class="logo">
-                <a href="signup.html" class="author-area__seller-btn inline"><i class="fa fa-home"></i>&nbsp;Home</a>
+                <a href="home.php" class="author-area__seller-btn inline"><i class="lnr lnr-home"></i>Home</a>
+                <a href="media/pesanan.php" style="color:black;"><i class="lnr lnr-book"></i>Reservasi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="konsul.php" style="color:black;"><i class="lnr lnr-users"></i>Konsultasi</a>
               </div>
             </div>
             <div class="col-lg-8 offset-lg-1 col-md-9 col-6 v_middle">
@@ -179,7 +181,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                 <div class="featured__preview-img">
                   <img src="assets/images/featprod.jpg" alt="Featured products">
                   <div class="prod_btn">
-                    <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                    <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                   </div>
                 </div>
                 <div class="featured__product-description">
@@ -242,7 +244,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                 <div class="featured__preview-img">
                   <img src="assets/images/featprod.jpg" alt="Featured products">
                   <div class="prod_btn">
-                    <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                    <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                   </div>
                 </div>
                 <div class="featured__product-description">
@@ -305,7 +307,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                 <div class="featured__preview-img">
                   <img src="assets/images/featprod.jpg" alt="Featured products">
                   <div class="prod_btn">
-                    <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                    <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                   </div>
                 </div>
                 <div class="featured__product-description">
@@ -403,7 +405,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                   <div class="product__thumbnail">
                     <img src="assets/images/p1.jpg" alt="Product Image">
                     <div class="prod_btn">
-                      <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                      <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                     </div>
                   </div>
                   <div class="product-desc">
@@ -448,7 +450,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                   <div class="product__thumbnail">
                     <img src="assets/images/p1.jpg" alt="Product Image">
                     <div class="prod_btn">
-                      <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                      <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                     </div>
                   </div>
                   <div class="product-desc">
@@ -493,7 +495,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                   <div class="product__thumbnail">
                     <img src="assets/images/p1.jpg" alt="Product Image">
                     <div class="prod_btn">
-                      <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                      <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                     </div>
                   </div>
                   <div class="product-desc">
@@ -538,7 +540,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                   <div class="product__thumbnail">
                     <img src="assets/images/p1.jpg" alt="Product Image">
                     <div class="prod_btn">
-                      <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                      <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                     </div>
                   </div>
                   <div class="product-desc">
@@ -583,7 +585,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                   <div class="product__thumbnail">
                     <img src="assets/images/p1.jpg" alt="Product Image">
                     <div class="prod_btn">
-                      <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                      <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                     </div>
                   </div>
                   <div class="product-desc">
@@ -628,7 +630,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
                   <div class="product__thumbnail">
                     <img src="assets/images/p1.jpg" alt="Product Image">
                     <div class="prod_btn">
-                      <a href="single-product.html" class="transparent btn--sm btn--round">Pesan</a>
+                      <a href="media/pesanan.php" class="transparent btn--sm btn--round">Pesan</a>
                     </div>
                   </div>
                   <div class="product-desc">

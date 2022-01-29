@@ -34,9 +34,9 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
           <div class="row">
             <div class="col-lg-3 col-md-3 col-3">
               <div class="logo">
-                <a href="signup.html" style="color:black;"><i class="lnr lnr-home"></i>Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="signup.html" class="author-area__seller-btn inline"><i class="lnr lnr-book"></i>Reservasi</a>
-                <a href="signup.html" style="color:black;"><i class="lnr lnr-users"></i>Konsultasi</a>
+                <a href="../home.php" style="color:black;"><i class="lnr lnr-home"></i>Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="pesanan.php" class="author-area__seller-btn inline"><i class="lnr lnr-book"></i>Reservasi</a>
+                <a href="../konsul.php" style="color:black;"><i class="lnr lnr-users"></i>Konsultasi</a>
               </div>
             </div>
             <div class="col-lg-8 offset-lg-1 col-md-9 col-6 v_middle">
@@ -102,7 +102,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
             <div class="breadcrumb">
               <ul>
                 <li>
-                  <a href="/home.php">Home</a>
+                  <a href="../home.php">Home</a>
                 </li>
                 <li class="active">
                   <a href="#">Reservasi</a>
