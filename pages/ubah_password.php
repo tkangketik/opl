@@ -12,7 +12,7 @@ if (empty($_SESSION['email']) and empty($_SESSION['password'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Data Akun - Orion Pet Lover</title>
+    <title>Ubah Password - Orion Pet Lover</title>
     <link rel="stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/fontello.css">
